@@ -1,7 +1,7 @@
 const { spawnSync } = require('child_process')
 const { setFailed, info } = require('@actions/core')
 try {
-  const installCommand = `npm install -g appium@next --registry=https://registry.npmmirror.com`
+  const installCommand = `npm install -g appium@next`
   const installReturn = spawnSync(installCommand, { shell: true, stdio: 'pipe' })
   info(`
       pid: ${installReturn.pid}

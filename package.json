@@ -1,6 +1,6 @@
 {
   "name": "setup-appium",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "appium setup action",
   "main": "index.js",
   "scripts": {
