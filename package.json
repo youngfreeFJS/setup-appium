@@ -1,6 +1,6 @@
 {
   "name": "setup-appium",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "appium setup action",
   "main": "index.js",
   "scripts": {
@@ -18,7 +18,8 @@
   },
   "homepage": "https://github.com/youngfreeFJS/setup-appium#readme",
   "dependencies": {
-    "@actions/core": "^1.2.6"
+    "@actions/core": "^1.2.6",
+    "appium": "^2.0.0-beta.55"
   },
   "devDependencies": {
     "jest": "^29.3.1",
