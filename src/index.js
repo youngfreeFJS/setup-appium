@@ -2,7 +2,7 @@ const { execSync } = require('child_process')
 const { setFailed, info } = require('@actions/core')
 try {
   const installCommand = `npm install -g appium@next`
-  const installReturn = execSync(installCommand, { shell: true, stdio: 'pipe' })
+  const installReturn = execSync(installCommand, { shell: true, stdio: 'inherit' })
   info(`
       pid: ${installReturn.pid}
       output: ${installReturn.output}
